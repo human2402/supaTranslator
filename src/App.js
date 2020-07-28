@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import './App.css'
+
+import SimpleTranslator from './components/simpleTranslator/SimpleTranslator'
+import DragHandler from './components/dragHandler/DragHandler'
+import HardTranslator from './components/hardTranslator/HardTranslator'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          go & fuck your ugly mama
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className="App"
+    >
+      <SimpleTranslator />
+      <DragHandler />    
+      <HardTranslator />
     </div>
   );
 }
 
-export default App;
+export default App
