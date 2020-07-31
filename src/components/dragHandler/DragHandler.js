@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
 const DragHandler = (props) => {
     return (
         <div
             style = {{
-                height: '18.72vh',
+                height: '20.44vh',
+                //half is 78 % or 9.61vh
+                borderRadius: '30px',
                 backgroundColor: 'gray'
             }}
         >
